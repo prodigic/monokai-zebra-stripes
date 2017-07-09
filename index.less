@@ -4,6 +4,10 @@ atom-text-editor {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
 
+  .line:nth-child(odd) {
+    background-color:rgba(255, 255, 255,0.042);
+  }
+
   .invisible-character {
     color: @syntax-invisible-character-color;
   }

@@ -1,10 +1,10 @@
 {
-  "name": "monokai",
+  "name": "monokai-zebra-stripes",
   "theme": "syntax",
   "version": "0.24.0",
   "private": true,
-  "description": "A monokai theme",
-  "repository": "https://github.com/kevinsawicki/monokai",
+  "description": "A monokai theme with zebra striping",
+  "repository": "https://github.com/prodigic/monokai-zebra-stripes",
   "license": "MIT",
   "engines": {
     "atom": ">=1.13.0"
