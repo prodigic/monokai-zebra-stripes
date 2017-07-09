@@ -1,4 +1,4 @@
-# Monokai Zebra Stipes theme
+# Monokai Zebra Stripes theme
 
 A monokai syntax theme for Atom with background zebra stripes
 
