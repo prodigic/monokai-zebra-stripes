@@ -1,12 +1,28 @@
 {
-  "name": "monokai-zebra-stripes",
-  "theme": "syntax",
-  "version": "0.24.4",
-  "private": true,
-  "description": "A monokai theme with zebra striping",
-  "repository": "https://github.com/prodigic/monokai-zebra-stripes",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.13.0"
-  }
+    "name": "vscode-monokai-zebra-stripes",
+    "displayName": "Monokai Zebra Stripes",
+    "description": "A Monokai theme for VS Code, ported from the Atom theme 'Monokai Zebra Stripes'. Does not include the zebra stripes.",
+    "version": "1.0.0",
+    "publisher": "prodigic",
+    "private": false,
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/prodigic/monokai-zebra-stripes"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Monokai Zebra Stripes",
+                "uiTheme": "vs-dark",
+                "path": "./themes/monokai-zebra-stripes-color-theme.json"
+            }
+        ]
+    }
 }
